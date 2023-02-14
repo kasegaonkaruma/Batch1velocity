@@ -20,7 +20,7 @@ public class TC001 {
 		driver.get("https://www.amazon.in/");
 		Thread.sleep(2000);
 		WebElement search=driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']"));
-		search.sendKeys("mobile");
+		search.sendKeys("smart tv");
 
 
 		WebElement searchButton=driver.findElement(By.xpath("//input[@type='submit']"));
